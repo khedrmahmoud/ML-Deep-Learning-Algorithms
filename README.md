@@ -28,18 +28,18 @@ Here's a list of the algorithms currently included in this repository:
 1. Simple Linear Regression
 2. Multiple Linear Regression
 3. Polynomial Regression
-4. Support Vector Machines (SVM)
+4. Support Vector Regression (SVR)
+5. Decision Trees and Random Forests Regression
 <!--2. Logistic Regression
-3. Support Vector Machines (SVM)
-4. K-Nearest Neighbors (KNN)
-5. Decision Trees and Random Forests
-6. K-Means Clustering
-7. Principal Component Analysis (PCA)
-8. Artificial Neural Networks (ANN)
-9. Convolutional Neural Networks (CNN)
-10. Recurrent Neural Networks (RNN)
-11. Generative Adversarial Networks (GAN)
-12. Reinforcement Learning Algorithms-->
+6. K-Nearest Neighbors (KNN)
+7. Decision Trees and Random Forests
+8. K-Means Clustering
+9. Principal Component Analysis (PCA)
+10. Artificial Neural Networks (ANN)
+11. Convolutional Neural Networks (CNN)
+12. Recurrent Neural Networks (RNN)
+13. Generative Adversarial Networks (GAN)
+14. Reinforcement Learning Algorithms-->
 
 Each algorithm is organized into its own directory, containing Python code, and sample datasets where applicable for detailed explanations and usage.
 
@@ -58,9 +58,10 @@ To get started, clone this repository to your local machine using the following 
 ```bash
 git clone https://github.com/khedrmahmoud/ML-Deep-Learning-Algorithms.git
 ```
+
 <!--## license
 This project is licensed under the MIT License - see the LICENSE file for details.-->
 
+---
 
-___
 If you find this repository useful, please consider giving it a star and sharing it with others. Happy coding and learning!
