@@ -2,7 +2,7 @@
 
 Welcome to the ML-Deep-Learning-Algorithms repository! This is your one-stop destination for a collection of powerful machine learning and deep learning algorithms implemented in Python.
 
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+<!--[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)-->
 
 ## Table of Contents
 
@@ -10,7 +10,7 @@ Welcome to the ML-Deep-Learning-Algorithms repository! This is your one-stop des
 2. [Algorithms](#algorithms)
 3. [Installation](#installation)
 4. [Getting Started](#getting-started)
-5. [License](#license)
+<!--5. [License](#license)-->
 
 ## About
 
@@ -58,7 +58,7 @@ To get started, clone this repository to your local machine using the following 
 ```bash
 git clone https://github.com/khedrmahmoud/ML-Deep-Learning-Algorithms.git
 ```
-## license
-This project is licensed under the MIT License - see the LICENSE file for details.
+<!--## license
+This project is licensed under the MIT License - see the LICENSE file for details.-->
 
 If you find this repository useful, please consider giving it a star and sharing it with others. Happy coding and learning!
