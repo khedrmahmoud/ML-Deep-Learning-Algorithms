@@ -48,7 +48,7 @@ Each algorithm is organized into its own directory, containing Python code, and 
 To get started, you'll need Python 3.11 and a few common libraries. You can set up your environment using pip:
 
 ```bash
-pip install -r requirements.txt
+pip install -r requirements
 ```
 
 ## Getting Started
