@@ -28,11 +28,12 @@ Here's a list of the algorithms currently included in this repository:
 1. Simple Linear Regression
 2. Multiple Linear Regression
 3. Polynomial Regression
-4. Support Vector Regression (SVR)
+4. Support Vector Machine (SVR)
 5. Decision Trees and Random Forests Regression
 ### Classification
 1. Logistic Regression
 2. K-Nearest Neighbors (KNN)
+3. Support Vector Machine (SVC)
 <!--
 7. Decision Trees and Random Forests
 8. K-Means Clustering
