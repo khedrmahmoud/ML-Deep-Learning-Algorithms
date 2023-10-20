@@ -32,8 +32,8 @@ Here's a list of the algorithms currently included in this repository:
 5. Decision Trees and Random Forests Regression
 ### Classification
 1. Logistic Regression
+2. K-Nearest Neighbors (KNN)
 <!--
-6. K-Nearest Neighbors (KNN)
 7. Decision Trees and Random Forests
 8. K-Means Clustering
 9. Principal Component Analysis (PCA)
