@@ -23,11 +23,10 @@ x_train = sc_x.fit_transform(x_train)
 x_test = sc_x.transform(x_test)
 
 # %% Fitting the Classification Model
-from sklearn.linear_model import LogisticRegression
+from sklearn.neighbors import KNeighborsClassifier
 
-classifier = LogisticRegression(random_state=0)
+classifier = KNeighborsClassifier(n_neighbors=5, metric="minkowski",p=2)
 classifier.fit(x_train, y_train)
-
 # %% Predicting the test set
 y_pred = classifier.predict(x_test)
 
@@ -53,7 +52,7 @@ def visualize(x_set, y_set, title, classifier):
         plt.scatter(x_set[y_set == j, 0], x_set[y_set == j, 1], c=ListedColormap(
             ('red', 'green'))(i), label=j)  # Fixed color mapping
 
-    plt.title('Classifier('+title+')')
+    plt.title('K-NN ('+title+')')
     plt.xlabel("age")
     plt.ylabel("Estimated salary")
     plt.legend()
