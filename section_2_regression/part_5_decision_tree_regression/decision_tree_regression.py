@@ -3,7 +3,7 @@
 """  
 import numpy as np
 import matplotlib.pyplot as plt
-import pandas as pd
+import pandas as pd 
 
 #import dataset
 dataset = pd.read_csv("Position_Salaries.csv")
@@ -20,7 +20,7 @@ regressor.fit(x, y)
 y_pred = regressor.predict(np.array(6.5).reshape(-1,1))
 
 #%% Visualization
-x_grid = np.arrange(min(x),max(x),0.1)
+x_grid = np.arange(min(x),max(x),0.1)
 x_grid = x_grid.reshape(len(x_grid),1)
 plt.scatter(x, y, color='r')
 plt.plot(x_grid, regressor.predict(x_grid),color='g')

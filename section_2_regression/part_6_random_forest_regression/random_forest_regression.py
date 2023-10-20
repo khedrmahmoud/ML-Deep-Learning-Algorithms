@@ -13,7 +13,7 @@ y= dataset.iloc[:,2].values
 
 #%% Fitting the Regression Model 
 from sklearn.ensemble import RandomForestRegressor
-regressor = RandomForestRegressor(random_state=0,n_estimators=100 )
+regressor = RandomForestRegressor(random_state=0,n_estimators=277 )
 regressor.fit(x, y)
 
 #%% Predicting a new result
@@ -24,7 +24,7 @@ x_grid = np.arange(min(x),max(x)+0.1,0.1)
 x_grid = x_grid.reshape(len(x_grid),1)
 plt.scatter(x, y, color='r')
 plt.plot(x_grid, regressor.predict(x_grid),color='g')
-plt.title('(Decision Tree Regression Model)')
+plt.title('(Random Forest Regression Model)')
 plt.xlabel('Position level')
 plt.ylabel('Salary')
 plt.show()
