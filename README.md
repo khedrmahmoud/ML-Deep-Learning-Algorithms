@@ -24,13 +24,15 @@ This repository is a curated collection of popular machine learning and deep lea
 ## Algorithms
 
 Here's a list of the algorithms currently included in this repository:
-
+### Regression
 1. Simple Linear Regression
 2. Multiple Linear Regression
 3. Polynomial Regression
 4. Support Vector Regression (SVR)
 5. Decision Trees and Random Forests Regression
-<!--2. Logistic Regression
+### Classification
+1. Logistic Regression
+<!--
 6. K-Nearest Neighbors (KNN)
 7. Decision Trees and Random Forests
 8. K-Means Clustering
