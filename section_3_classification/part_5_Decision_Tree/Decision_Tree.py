@@ -29,7 +29,7 @@ x_test = sc_x.transform(x_test)
 # %% Fitting the Classification Model
 from sklearn.tree import DecisionTreeClassifier
 
-classifier = DecisionTreeClassifier()
+classifier = DecisionTreeClassifier(random_state=0,criterion='entropy')
 classifier.fit(x_train, y_train)
 
 # %% Predicting the test set
