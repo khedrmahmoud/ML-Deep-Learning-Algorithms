@@ -36,6 +36,8 @@ Here's a list of the algorithms currently included in this repository:
 3. Support Vector Machine (SVC)
 4. Naive Bayes Classification
 5. Decision Trees and Random Forests Classification
+### Clustering
+1. K-Means
 <!--
 7. Decision Trees and Random Forests
 8. K-Means Clustering
