@@ -37,16 +37,19 @@ Here's a list of the algorithms currently included in this repository:
 4. Naive Bayes Classification
 5. Decision Trees and Random Forests Classification
 ### Clustering
-1. K-Means
+1. K-Means Clustering
+2. Hierarchical Clustering
+###  Association Rule Learning
+1. Apriori
+### Reinforcement Learning
+1. Upper Confidence Bound (UCB) Intuition
 <!--
-7. Decision Trees and Random Forests
-8. K-Means Clustering
 9. Principal Component Analysis (PCA)
 10. Artificial Neural Networks (ANN)
 11. Convolutional Neural Networks (CNN)
 12. Recurrent Neural Networks (RNN)
 13. Generative Adversarial Networks (GAN)
-14. Reinforcement Learning Algorithms-->
+-->
 
 Each algorithm is organized into its own directory, containing Python code, and sample datasets where applicable for detailed explanations and usage.
 
